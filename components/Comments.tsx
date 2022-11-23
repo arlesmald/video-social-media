@@ -61,7 +61,7 @@ const Comments = ({ isPostingComment ,comment, setComment, addComment, comments 
                     </div>
                   </Link>
                   
-                  <div className="">
+                  <div key={`comment-${i}`}>
                     <p>
                       {item.comment}
                     </p>
